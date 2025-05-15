@@ -109,7 +109,7 @@ public class Notepad extends JFrame {
         helpMenu.setForeground(Color.WHITE);
 
         JMenuItem aboutItem = createMenuItem("About", null, e -> JOptionPane.showMessageDialog(this,
-                "<html><center><h2>Futuristic Notepad</h2><br>By Your Name<br><br>Powered by Java Swing</center></html>",
+                "<html><center><h2>Futuristic Notepad</h2><br>By Aditya Tiwari<br><br>Powered by Java Swing</center></html>",
                 "About", JOptionPane.INFORMATION_MESSAGE));
         helpMenu.add(aboutItem);
 
